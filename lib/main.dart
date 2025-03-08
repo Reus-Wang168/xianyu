@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:xianyu/login_page.dart';
 
@@ -11,6 +12,7 @@ void main() {
       statusBarIconBrightness: Brightness.light,
     ),
   );
+  //debugPaintSizeEnabled = true;
   runApp(const MyApp());
 }
 
