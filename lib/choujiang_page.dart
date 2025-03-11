@@ -13,13 +13,13 @@ class ChouJPage extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/images/bg_chouj.png'),
-            fit: BoxFit.cover, // 确保背景图片填满整个屏幕
+            fit: BoxFit.cover,
           ),
         ),
         child: SafeArea(
           child: ConstrainedBox(
             constraints: BoxConstraints(
-              minHeight: MediaQuery.of(context).size.height, // 最小高度为屏幕高度
+              minHeight: MediaQuery.of(context).size.height,
             ),
             child: Column(
               children: [
@@ -117,7 +117,7 @@ class ChouJPage extends StatelessWidget {
           IconButton(
             onPressed: () => Navigator.pop(context),
             icon: const Icon(
-              Icons.arrow_back,
+              Icons.arrow_back_ios_new_rounded,
               color: Color(0xFFEADDC4),
               size: 30,
             ),

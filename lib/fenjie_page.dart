@@ -70,7 +70,7 @@ class FenJiePage extends StatelessWidget {
           IconButton(
             onPressed: () => Navigator.pop(context),
             icon: const Icon(
-              Icons.arrow_back,
+              Icons.arrow_back_ios,
               color: Color(0xFFEADDC4),
               size: 30,
             ),
